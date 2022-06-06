@@ -1,0 +1,25 @@
+.myItem{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid pink;
+}
+.itemImg img{
+    width: 200px;
+    border: 2px dotted cyan;
+}
+
+.divOne, .divTwo{
+    width: 450px;
+}
+
+
+
+@media only screen and (max-width: 576px){
+   .myItem{
+       grid-template-columns: repeat(1, 1fr);
+   }
+   
+}

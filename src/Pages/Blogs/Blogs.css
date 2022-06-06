@@ -1,0 +1,19 @@
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.card{
+    background-color: #19646e;
+    color: white;
+    padding: 20px;
+    border: 3px solid goldenrod;
+    border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 576px){
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

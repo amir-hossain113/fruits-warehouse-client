@@ -1,0 +1,33 @@
+.registerForm{
+    border: 2px dashed orange;
+    padding: 30px 60px;
+    width: 600px;
+    background-color: rgb(153, 239, 211);
+}
+.registerForm input:not([type=checkbox]){
+    display: block;
+    width: 476px;
+    height: 40px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+.registerForm input[type=checkbox]{
+    height: 12px;
+}
+
+
+
+@media only screen and (max-width: 576px){
+    .registerForm{
+        width: 400px;
+    }
+    .registerForm input:not([type=checkbox]){
+        width: 276px;
+    }
+    .registerForm input[type=checkbox]{
+        height: 16px;
+    }
+}

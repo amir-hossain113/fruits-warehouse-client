@@ -1,0 +1,8 @@
+.line{
+    height: 2px;
+    background-color: #452579;
+}
+.para{
+    border: 2px dotted #be773d;
+    border-radius: 100%;
+}

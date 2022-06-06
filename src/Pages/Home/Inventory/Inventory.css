@@ -1,0 +1,29 @@
+.items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    border: 2px solid cyan;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+}
+.img{
+    border-right: 2px solid cyan;
+}
+.inventoryBtn{
+    margin-left: 585px;
+}
+
+
+@media only screen and (max-width: 576px){
+    .items{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .img{
+        border-bottom: 2px solid cyan;
+        border-right: none;
+    }
+    .inventoryBtn{
+        margin-left: 170px;
+    }
+}

@@ -1,0 +1,29 @@
+.detail{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    border: 2px dotted magenta;
+    padding: 20px;
+    text-align: left;
+}
+input{
+    height: 40px;
+}
+.info{
+    border-right: 2px dotted magenta;
+}
+
+
+
+
+@media only screen and (max-width: 576px){
+    .detail{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .info{
+        border-right: none;
+        border-bottom: 2px dotted magenta;
+    }
+}
